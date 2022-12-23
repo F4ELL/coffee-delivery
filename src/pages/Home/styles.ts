@@ -81,3 +81,72 @@ export const Qualities = styled.span<QualitiesProps>`
         border-radius: 50%;
     }
 `
+
+export const CoffeeList = styled.section`
+    width: 100%;
+
+    margin: 0 auto;
+
+    padding: 2rem 10rem;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: 'Baloo 2', cursive;
+        line-height: 41.6px;
+        color: ${({ theme }) => theme['base-subtitle']};
+
+        margin-bottom: 3.375rem;
+    }
+`
+
+export const CardCoffee = styled.div`
+    width: 16rem;
+    height: 19,375rem;
+
+    background: ${({ theme }) => theme['base-card']};
+    border-radius: 6px 36px 6px 36px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.25rem 1.5rem;
+
+    img {
+        margin-top: -2.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    span {
+        font-size: 0.625rem;
+        font-weight: 700;
+        line-height: 13px;
+        color: ${({ theme }) => theme['yellow-dark']};
+        background: ${({ theme }) => theme['yellow-light']};
+        text-transform: uppercase;
+        border-radius: 100px;
+
+        padding: 0.25rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 26px;
+        font-family: 'Baloo 2', cursive;
+        color: ${({ theme }) => theme['base-subtitle']};
+
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+        line-height: 18.2px;
+        color: ${({ theme }) => theme['base-label']};
+        text-align: center;
+
+        margin-bottom: 0.5rem;
+    }
+`
