@@ -202,4 +202,10 @@ export const AddCardButton = styled.button`
     border-radius: 6px;
 
     padding: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: ${({ theme }) => theme.purple};
+        transition: all ease 0.2s;
+    }
 `

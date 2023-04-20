@@ -32,6 +32,8 @@ export const BaseHeaderButton = styled.button`
     display: flex;
     align-items: center;
     gap: 0.25rem;
+
+    cursor: pointer;
 `
 
 export const LocationButton = styled(BaseHeaderButton)`
