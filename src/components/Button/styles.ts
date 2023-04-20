@@ -16,4 +16,9 @@ export const ButtonContainer = styled.button`
     padding: 0.75rem 0.5rem;
 
     cursor: pointer;
+
+    &:hover {
+        background-color: ${({ theme }) => theme['yellow-dark']};
+        transition: all ease 0.2s;
+    }
 `

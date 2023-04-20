@@ -169,6 +169,11 @@ export const RemoveButton = styled.button`
     text-transform: uppercase;
 
     cursor: pointer;
+
+    &:hover {
+        background-color: ${({ theme }) => theme['base-hover']};
+        transition: all ease 0.2s;
+    }
 `
 
 export const Separator = styled.div`

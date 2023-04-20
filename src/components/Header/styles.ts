@@ -45,4 +45,29 @@ export const LocationButton = styled(BaseHeaderButton)`
 
 export const ShopButton = styled(BaseHeaderButton)`
     background-color: ${({ theme }) => theme['yellow-light']};
+
+    position: relative;
+`
+
+export const CardAmountItems = styled.div`
+    position: absolute;
+    right: -0.5rem;
+    top: -0.5rem;
+
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: ${({ theme }) => theme['yellow-dark']};
+
+    span {
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 15.6px;
+        color: ${({ theme }) => theme.white};
+    }
 `
